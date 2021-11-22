@@ -16,3 +16,7 @@ RUN pip install jupyterlab==1.2.6
 
 # add git, vim and curl
 RUN apt-get -y install git vim curl
+
+# useful libraries for this project
+RUN apt-get install -y libgdal-dev
+RUN pip install geopandas
