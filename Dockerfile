@@ -19,4 +19,4 @@ RUN apt-get -y install git vim curl
 
 # useful libraries for this project
 RUN apt-get install -y libgdal-dev
-RUN pip install geopandas
+RUN pip install geopandas scikit-image seaborn tqdm click
